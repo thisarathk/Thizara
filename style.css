@@ -130,7 +130,7 @@ body {
 
 
 h1{
-  width: 0ch;
+  width: 10ch;
   font-family: monospace;
   text-wrap: nowrap;
   overflow: hidden;
@@ -140,7 +140,7 @@ h1{
 
 @keyframes typing{
   from{
-    width: 20ch;
+    width: 90ch;
   }
 }
 
