@@ -127,22 +127,22 @@ body {
                                 0 0 100px rgb(72, 168, 28);
                   }
 
-
-
 h1{
-  width: 10ch;
-  font-family: monospace;
-  text-wrap: nowrap;
-  overflow: hidden;
-  animation: typing 1s steps(100) infinite alternate-reverse;
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 5px 5px 0 #ff005e, 10px 10px 0 #00d4ff;
+    animation: shadow-dance 2s infinite;
 }
 
-
-@keyframes typing{
-  from{
-    width: 90ch;
-  }
+@keyframes shadow-dance {
+    0%, 100% {
+        text-shadow: 5px 5px 0 #ff005e, 10px 10px 0 #00d4ff;
+    }
+    50% {
+        text-shadow: -5px -5px 0 #00d4ff, -10px -10px 0 #ff005e;
+    }
 }
+
 
 
 
