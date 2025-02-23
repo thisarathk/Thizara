@@ -1,0 +1,189 @@
+
+
+html{
+    text-align: center;
+    color: #18d828;
+
+
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+   background-color: rgb(13, 13, 20);
+   padding: 2%;
+   background-image: url("B.jpg");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{margin:0;
+  padding:0;}
+ 
+
+
+
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 50px;
+  }
+  
+  .topnav a {
+    float: left;
+    color: rgb(45, 248, 55);
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+    font-size: 19px;
+    border-radius: 50px;
+  }
+  
+  .topnav a:hover {
+    background-color: #333;
+    color: rgb(233, 3, 3);
+    
+  }
+  .topnav a.active {
+    background-color:rgb(45, 248, 55);
+    color: rgb(33, 33, 33);
+   
+  }
+
+  .topnav a.active:hover{
+    background-color: #db3939;
+    color: #333;
+   
+   
+    
+  }
+
+
+
+   
+
+.topnav b.logo img{
+  width: 130px;
+  float: right;
+
+
+  
+}
+
+@media screen and (max-width: 470px) {
+  .topnav b.logo img{
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+                 .button {
+                    padding: 10px 20px;
+                    border: none;
+                    font-size: 17px;
+                    color: #020000;
+                    border-radius: 50px;
+                    letter-spacing: 4px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    transition: 0.5s;
+                    transition-property: box-shadow;
+                    
+                  }
+                  
+                  .button a{
+
+                    color: #020000;
+                    text-decoration: none;
+                  }
+
+
+
+                  .button {
+                    background: #0eb832;
+                    box-shadow: 0 0 25px rgb(45, 248, 55);
+                  }
+                  
+                  .button:hover {
+                    box-shadow: 0 0 5px rgb(72, 168, 28),
+                                0 0 25px rgb(72, 168, 28),
+                                0 0 50px rgb(072, 168, 28),
+                                0 0 100px rgb(72, 168, 28);
+                  }
+
+
+
+h1{
+    font-size: 3rem;
+    color: rgb(72, 168, 28);
+    text-shadow: 5px 5px 0 #000000, 10px 10px 0 #000000;
+    animation: shadow-dance 2s infinite;
+}
+
+@keyframes shadow-dance {
+    0%, 100% {
+        text-shadow: 5px 5px 0 #000000, 10px 10px 0 #fcfdfd;
+    }
+    50% {
+        text-shadow: -5px -5px 0 #000000, -10px -10px 0 #ffffff;
+    }
+}
+
+
+
+.grid-container {
+
+display: grid;
+flex-wrap: wrap;
+grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+gap: 20px;
+justify-content: center;
+
+}
+
+
+
+
+.box{
+  padding: 15%;
+  border-radius: 50px;
+  background-color: #2d312e;
+  text-align: center;
+}
+
